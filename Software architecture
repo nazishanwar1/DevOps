@@ -1,0 +1,7 @@
+An Application is a collection of services.
+---------- Software Architecture -----------
+Four types:
+    1. One-Tier (Tier means layer or server)
+    2. Two-Tier
+    3. Three-Tier
+    4. N-Tier
