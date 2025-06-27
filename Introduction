@@ -1,4 +1,5 @@
 Why DevOps? TO deliver an application speedily.
+------------------------------------------
 SDLC: Software Development Life Cycle.
 In the software domain, we have 2 teams for developing the application:
     ---->  1. Development (Plan, Code, Build, Test)          
@@ -10,5 +11,14 @@ In the software domain, we have 2 teams for developing the application:
 ----Deploy: The process of installing an application on a server. (Developer develops a code on a local laptop, which an end user can't use, so to make it usable, he has to install it on a server.)
 ----Operation: updating, configuring
 ----Monitoring: Checking the application's functioning at the server level.
-
-DevOps: Dev+Ops 
+--------------------------------------------
+DevOps: Dev+Ops is a methodology. It includes planning, coding, building, testing, releasing, deploying, operating, and monitoring.
+Tools: git, maven, apache, gridle, jenkins, docker, chef, ansible, splunk, nagios, ELK, etc.
+Roles and responsibilities:
+    - Cloud/Server/Network Architectures (using AWS)
+    - Configuring and maintaining infrastructure (with the help of Terraform)
+    - CI/CD pipelines (Jenkins)
+    - Automating Daily tasks (Ansible & Shell Scripting)
+    - Continuous Monitoring (Nagios)
+    - Collaboration with all teams 
+    - Migrating from Monolithic to Microservices (Docker & Kubernetes)
