@@ -1,0 +1,14 @@
+Why DevOps? TO deliver an application speedily.
+SDLC: Software Development Life Cycle.
+In the software domain, we have 2 teams for developing the application:
+    ---->  1. Development (Plan, Code, Build, Test)          
+----Plan: Create a plan for the application
+----Code: Select the language to write the application
+----Build: Adding dependencies.
+----Test: Checking the accuracy of an application.
+    ---->  2.  Operation (Deploy, Operation, Monitoring)
+----Deploy: The process of installing an application on a server. (Developer develops a code on a local laptop, which an end user can't use, so to make it usable, he has to install it on a server.)
+----Operation: updating, configuring
+----Monitoring: Checking the application's functioning at the server level.
+
+DevOps: Dev+Ops 
