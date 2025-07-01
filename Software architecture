@@ -5,3 +5,40 @@ Four types:
     2. Two-Tier
     3. Three-Tier
     4. N-Tier
+--- Server: It is like a big computer which serves the services to end users.
+There are three types of servers:
+1.	Web server 		2. App server 		3. db server
+------ Web server --------
+-	It is also called the presentation layer.
+-	To show the application
+-	Who works: UI/UX developers/front-end developers
+-	What they use: web technologies
+-	Example: html, css, js, etc.
+------- App server -------
+-	Also called the logic layer
+-	 To use the application
+-	Who works: back-end developers
+-	What they use: programming languages
+-	Example: Java, Python, C, C++, .NET, Go, etc.
+-------- db server --------
+-	Also called db layer
+-	To store and retrieve data
+-	Who works: DB admins
+-	What they use: database languages
+-	Example: SQL, Oracle, PostgreSQL, Arango, etc.
+All three layers are connected with SSH to each other.
+
+-------- One tier architecture    -----------
+-	Create standalone applications that work on a local laptop.
+-	It will not require any internet connection.
+-	Ex: VLC media player
+-------- Two Tier Architecture -----------
+-	Client-Server application that works on a local laptop.
+-	Local: Presentation, Logic		DB: Internet
+-	It will require an internet connection.
+-	Ex: Banking applications
+-------- Three Tier Architecture -----------
+-	Web application (Real Time), does not require on local laptop.
+-	Everything we can use from internet.
+-	Ex: YouTube, Instagram, WhatsApp
+
