@@ -42,3 +42,17 @@ All three layers are connected with SSH to each other.
 -	Everything we can use from internet.
 -	Ex: YouTube, Instagram, WhatsApp
 
+
+------------ Implementation of Architecture ----------------
+TO CREATE SERVER WE NEED TO HAVE CLOUD ACCOUNT.
+AWS: EC2 INSTANCES = ELASTIC COMPUTE CLOUD
+TO CREATE EC2 WE NEED TO PERFORM 7 STEPS:
+SERVER = COMPUTER
+1. TAGS = NAME
+2. AMI OS, SOFTWARE PACKAGES
+3. INSTANCE_TYPE = CPU & RAM
+4. KEY_PAIR = LOGIN (public=aws, private user)
+5. NETWORK = VPC, SECURITY GROUPS (port numbers=0-65535)
+6. STORAGE = 8 GB -16 TB
+7. SUMMARY = TO REVIEW 
+SSH= SECURE SHELL (22) TO COMMUNICATE WITH SERVERS 
