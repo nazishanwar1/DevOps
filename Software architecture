@@ -5,6 +5,40 @@ Four types:
     2. Two-Tier
     3. Three-Tier
     4. N-Tier
+
+-------- One tier architecture    -----------
+-	Create standalone applications that work on a local laptop.
+-	It will not require any internet connection.
+-	Ex: VLC media player
+-------- Two Tier Architecture -----------
+-	Client-Server application that works on a local laptop.
+-	Local: Presentation, Logic		DB: Internet
+-	It will require an internet connection.
+-	Ex: Banking applications
+-------- Three Tier Architecture -----------
+-	Web application (Real Time), does not require on local laptop.
+-	Everything we can use from internet.
+-	Ex: YouTube, Instagram, WhatsApp
+============================================================
+🏗️ Software Architecture – Tiered Design
+1️⃣ One-Tier Architecture
+-    Standalone applications that run on a local machine
+-    No internet connection required
+-    ✅ Example: VLC Media Player
+2️⃣ Two-Tier Architecture
+-    Client-Server application with a local client and remote database
+-    Presentation + Logic on client → Database on server
+-    Requires internet for DB access
+3️⃣ Three-Tier Architecture
+-    Fully web-based applications
+-    Everything is hosted and accessed through the internet
+-    ✅ Examples: YouTube, Instagram, WhatsApp
+
+4️⃣ N-Tier Architecture
+-    Extension of Three-Tier with additional layers like caching, API gateways, microservices, etc.
+-    Used in complex enterprise applications
+================================================================
+
 --- Server: It is like a big computer which serves the services to end users.
 There are three types of servers:
 1.	Web server 		2. App server 		3. db server
@@ -27,20 +61,6 @@ There are three types of servers:
 -	What they use: database languages
 -	Example: SQL, Oracle, PostgreSQL, Arango, etc.
 All three layers are connected with SSH to each other.
-
--------- One tier architecture    -----------
--	Create standalone applications that work on a local laptop.
--	It will not require any internet connection.
--	Ex: VLC media player
--------- Two Tier Architecture -----------
--	Client-Server application that works on a local laptop.
--	Local: Presentation, Logic		DB: Internet
--	It will require an internet connection.
--	Ex: Banking applications
--------- Three Tier Architecture -----------
--	Web application (Real Time), does not require on local laptop.
--	Everything we can use from internet.
--	Ex: YouTube, Instagram, WhatsApp
 
 
 ------------ Implementation of Architecture ----------------
